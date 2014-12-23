@@ -67,8 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-	/*color: #000000;*/
-	color: #a4003a;
+	color: #000000;
 }
 
 .navbar-default {
@@ -83,8 +82,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > li > a {
-	/*color: #000000;*/
-	color: #a4003a;
+	color: #000000;
+}
+
+#home-text {
+	color: #ffffff;
+	width: 100%;
+	background: #000000;
+	opacity: 0.5;
+	p {
+		font-weight: bold;
+	}
 }
 
 /* ==========================================================================
@@ -144,7 +152,8 @@ h1, h2, h3, h4, h5, h6 {
 #footerwrap {
 	padding-top: 70px;
 	padding-bottom: 50px;
-	background-color: #2f2f2f;
+	background-color: #3C0F0F;
+	opacity: 0.9;
 }
 
 #footerwrap p {
@@ -187,11 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #ffffff
 }
 
-#workExperience, #blog {
-	margin-top: 60px;
-}
-
-.blogPost {
+.default-page {
 	margin-top: 60px;
 }
 
@@ -217,8 +222,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
 /* Gallery */
 .gallery {
 	margin-top: 30px;
@@ -226,4 +229,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery img:hover {
 	opacity: 0.4;
+}
+
+/* ==========================================================================
+   Activities
+   ========================================================================== */
+.li-padded {
+	padding: 5px;
+}
+.padded-bottom {
+	padding-bottom: 5px;
 }
