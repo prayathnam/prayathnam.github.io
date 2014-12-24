@@ -238,6 +238,12 @@ h1, h2, h3, h4, h5, h6 {
 .li-padded {
 	padding: 5px;
 }
-.padded-bottom {
-	padding-bottom: 5px;
+.margin-bottom {
+	margin-bottom: 5px;
+}
+.margin-top {
+	margin-top: 5px;
+}
+.centered-image {
+	margin-left: 400px;
 }
