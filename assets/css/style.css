@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .default-page {
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 #aboutwrap {	
@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ==========================================================================
    Activities
    ========================================================================== */
-.li-padded {
+.padded {
 	padding: 5px;
 }
 .margin-bottom {
@@ -246,4 +246,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .centered-image {
 	margin-left: 400px;
+}
+.padded-left-45 {
+	padding-left: 45px;
 }
