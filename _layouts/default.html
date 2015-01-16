@@ -1,5 +1,35 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Prayathnam">
+    <title>Prayathnam</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/sidebar.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+	<div class="row" id="mainRow">
+		
+		{% include sidebar.html %}
 
-{{ content }}
+		{{ content }}
+	</div>
 
-{% include footer.html %}
+		{% include footer.html %}
+
+<script>
+	$(document).ready(function(){
+		desiredHeight = $('#mainRow').css('height');
+		console.log(desiredHeight);
+	    $('.sidebar').css('height', desiredHeight) ;
+
+	});
+</script>
+</script>
