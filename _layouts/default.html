@@ -25,7 +25,8 @@
 		{% include footer.html %}
 
 <script>
-	$(document).ready(function(){
+	// Hacky, will replace with a css solution
+  $(window).load(function(){
 		desiredHeight = $('#mainRow').css('height');
 		console.log(desiredHeight);
 	    $('.sidebar').css('height', desiredHeight) ;
