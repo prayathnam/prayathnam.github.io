@@ -20,17 +20,7 @@
 		{% include sidebar.html %}
 
 		{{ content }}
+
 	</div>
 
 		{% include footer.html %}
-
-<script>
-	// Hacky, will replace with a css solution
-  $(window).load(function(){
-		desiredHeight = $('#mainRow').css('height');
-		console.log(desiredHeight);
-	    $('.sidebar').css('height', desiredHeight) ;
-
-	});
-</script>
-</script>

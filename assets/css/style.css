@@ -218,3 +218,15 @@ h1, h2, h3, h4, h5, h6 {
 .padding-left-50 {
 	padding-left: 50px;
 }
+
+/* Hack to make both navbar and content same height */
+#mainRow .sidebar
+{
+    padding: 30px 3.15% 99999px; 
+    float: left;
+    margin-bottom: -99999px;
+}
+
+#mainRow {
+	overflow: hidden;
+}
