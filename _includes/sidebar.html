@@ -1,12 +1,18 @@
 <div class="col-md-2 sidebar">
-  <p class="brand">Prayathnam</p>
+  <div class="brand logo">
+    <a href="/">
+      <img src="/assets/img/logo.jpg" />
+    </a>
+  </div>
   <ul class="list">
-        <li {% if page.title == "Home" %} class="active" {% endif %}><a href= " {{ site.url }} ">Home</a></li>
-        <li {% if page.title == "Activities" %} class="active" {% endif %}><a href="{{ site.url }}/activities">Activities</a></li>
-        <li {% if page.title == "Members" %} class="active" {% endif %}><a href="{{ site.url }}/members">Members</a></li>
-        <li {% if page.title == "Yathnam Exams" %} class="active" {% endif %}><a href="{{ site.url }}/yathnamExams">Yathnam Exams</a></li>
-        <li {% if page.title == "Madal" %} class="active" {% endif %}><a href="{{ site.url }}/madal">M.A.D.A.L</a></li>
-        <li {% if page.title == "Gallery" %} class="active" {% endif %}><a href="{{ site.url }}/gallery">Gallery</a></li>
-        <li {% if page.title == "Join Us" %} class="active" {% endif %}><a href="{{ site.url }}/joinUs">Join Us</a></li>
-  </ul> 
+    <li {% if page.title == "Home" %} class="active" {% endif %}><a href= " {{ site.url }} ">Home</a></li>
+    <li {% if page.title == "Activities" %} class="active" {% endif %}><a href="{{ site.url }}/activities">Activities</a></li>
+    <li {% if page.title == "Members" %} class="active" {% endif %}><a href="{{ site.url }}/members">Members</a></li>
+    <li {% if page.title == "Yathnam Exams" %} class="active" {% endif %}><a href="{{ site.url }}/yathnamExams">Yathnam Exams</a></li>
+    <li>
+      <a href="/assets/misc/milestones.pptx">Milestones and Achievements</a></li>
+    <li {% if page.title == "Madal" %} class="active" {% endif %}><a href="{{ site.url }}/madal">M.A.D.A.L</a></li>
+    <li {% if page.title == "Gallery" %} class="active" {% endif %}><a href="{{ site.url }}/gallery">Gallery</a></li>
+    <li {% if page.title == "Join Us" %} class="active" {% endif %}><a href="{{ site.url }}/joinUs">Join Us</a></li>
+  </ul>
 </div>
