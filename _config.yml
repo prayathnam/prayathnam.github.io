@@ -1,7 +1,7 @@
 name: "www.prayathnam.in"
 description: "Prayathnam"
 
-url: "http://localhost:4000"
+url: "http://prayathnam.github.io"
 
 markdown: rdiscount
 permalink: pretty
